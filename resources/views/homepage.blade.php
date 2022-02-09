@@ -5,11 +5,27 @@
 @endsection
 
 @section('main_content')
-    <section>
-        
-        <div class="container">
-            @include('components.comics-list')
+    <section class="wrap-serie">
+
+        <!-- text -->
+        <div class="banner-text">
+            <h3>CURRENT SERIES</h3>
         </div>
 
+        <div class="container">
+            
+            @include('components.single-comic', [
+                'comics_list' => $comics_array
+            ])
+
+
+        </div>
+        
+        
+        <!-- button -->
+        <div class="button-more">
+            <button>LOAD MORE</button>
+        </div>
+            
     </section>
 @endsection
