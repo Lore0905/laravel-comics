@@ -1,6 +1,19 @@
+// variabili
 @import 'partials/_variables';
+
+// commons
 @import 'partials/_commons';
+
+// general
 @import 'partials/_general';
+
+// header
 @import 'partials/_header';
+
+// main
 @import 'partials/_main';
+@import 'partials/main_partials-component/jumbotron';
+@import 'partials/main_partials-component/single-serie';
+
+// footer
 @import 'partials/_footer';
