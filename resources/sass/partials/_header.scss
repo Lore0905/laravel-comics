@@ -1,0 +1,62 @@
+// FIRST HEADER
+
+.f-header{
+    background-color: $brand_primary_color;
+    color: white;
+
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+        li{
+            margin-left: 40px;
+            font-size: 12px;
+            padding: 5px 0;
+        }
+
+        
+    }
+}
+
+
+// SECOND HEADER
+
+// general col
+.col{
+    height: 100px;
+}
+
+// col-sx
+.col-sx{
+    display: flex;
+    align-items: center;
+
+    #logo{
+        max-width: 80px;
+    }
+}
+
+// col-dx
+.col-dx{
+    flex-grow: 1;
+    
+    ul{
+        display: flex;
+        justify-content: center;
+    
+        li{
+            margin: 0 12px;
+        
+            a{
+                display: block;
+                line-height: 95px;
+                color: $brand_secondary_color;
+            }
+            a:hover{
+                color: $brand_primary_color;
+                border-bottom: 5px solid $brand_primary_color;
+            }
+        }
+    }    
+}       
