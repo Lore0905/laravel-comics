@@ -1,0 +1,33 @@
+.col{
+    height: 100px;
+}
+.col-sx{
+    width: 35%;
+    display: flex;
+    align-items: center;
+
+    #logo{
+    width: 80px;
+    }
+}
+
+
+.col-dx{
+    width: 65%;
+    
+    ul{
+    display: flex;
+    justify-content: center;
+    }
+        li{
+            margin: 0 7px;
+        }
+            a{
+                display: block;
+                line-height: 95px;
+            }
+            a:hover{
+                color: $brand_primary_color;
+                border-bottom: 5px solid $brand_primary_color;
+            }
+}
