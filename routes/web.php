@@ -23,10 +23,24 @@ Route::get('/', function () {
         'second_main_array' => $second_main_array
     ];
     return view('homepage', $data);
-});
+})->name('homepage');;
 
 // DETAILS
-Route::get('/details', function () {
+Route::get('/details/{id}', function ($id) {
 
-    return view('details');
-});
+    $comics_array = config('comics');
+
+    $comics_click = false;
+
+    foreach($comics_array as $comic){
+        if($comic['id'] == $id){
+            $comics_click = $comic;
+        }
+    }
+
+    $data = [
+        'comics_array' => $comics_array
+    ];
+
+    return view('details', $data);
+})->name('details');;

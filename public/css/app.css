@@ -154,3 +154,48 @@ a {
   font-size: 14px;
   color: white;
 }
+
+.blue-bar {
+  height: 8vh;
+  width: 100%;
+  background-color: #3382f9;
+}
+
+#details-comic {
+  padding: 50px;
+}
+#details-comic .wrapping-col {
+  display: flex;
+  width: 100%;
+}
+#details-comic .wrapping-col .col-dx {
+  width: 75%;
+}
+#details-comic .wrapping-col .col-dx .wrapping-i-col {
+  display: flex;
+  width: 100%;
+}
+#details-comic .wrapping-col .col-dx .wrapping-i-col .col-i-dx {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+#details-comic .wrapping-col .col-dx .wrapping-i-col .col-i-sx {
+  width: 25%;
+  text-align: center;
+}
+#details-comic .wrapping-col .col-dx .wrapping-i-col .col-i-sx select {
+  background-color: #55ba58;
+  border: 0px;
+  color: white;
+}
+#details-comic .wrapping-col .col-dx .price-section {
+  background-color: #55ba58;
+}
+#details-comic .wrapping-col .col-sx {
+  width: 25%;
+}
+#details-comic .wrapping-col .col {
+  border: 1px solid black;
+  height: 100%;
+}

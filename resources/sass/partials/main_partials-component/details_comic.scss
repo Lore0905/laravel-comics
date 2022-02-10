@@ -1,0 +1,50 @@
+
+#details-comic{
+    padding: 50px;
+
+        .wrapping-col{
+            display: flex;
+            width: 100%;
+            
+            .col-dx{
+                width: 75%;
+        
+                .wrapping-i-col{
+                    display: flex;
+                    width: 100%;
+        
+                    .col-i-dx{
+                        width: 75%;
+                        display: flex;
+                        justify-content: space-between;
+                    }
+        
+                    .col-i-sx{
+                        width: 25%;
+                        text-align: center;
+
+                        select{
+                            background-color: #55ba58;
+                            border: 0px;
+                            color: white;
+                        }
+                    }
+                }
+                .price-section{
+                    background-color: #55ba58;
+                }
+        
+                
+            }
+        
+            .col-sx{
+                width: 25%;
+            }
+        
+            // generic col
+            .col{
+                border: 1px solid black;
+                height: 100%;
+            }
+        }
+}
