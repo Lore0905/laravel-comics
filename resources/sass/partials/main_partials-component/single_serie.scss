@@ -1,8 +1,9 @@
 .single-serie{
-    width: calc(100% / 6);
+    width: calc((100% / 6) - 10px);
     display: flex;
     flex-direction: column;
     padding: 5px;
+    overflow: hidden;
 
     
     .img-serie{

@@ -33,6 +33,8 @@
     </section>
 
     {{-- second part main --}}
-    @include('partials.main.second_part_main')
+    @include('partials.main.second_part_main', [
+        'second_part_main' => $second_main_array
+    ])
 
 @endsection

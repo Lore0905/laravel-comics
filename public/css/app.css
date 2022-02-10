@@ -113,10 +113,11 @@ a {
 }
 
 .single-serie {
-  width: 16.6666666667%;
+  width: calc(16.6666666667% - 10px);
   display: flex;
   flex-direction: column;
   padding: 5px;
+  overflow: hidden;
 }
 .single-serie .img-serie {
   width: 170px;
@@ -130,4 +131,26 @@ a {
 .single-serie h4 {
   padding: 20px 0;
   text-transform: uppercase;
+}
+
+#second-part-main {
+  background-color: #3382f9;
+}
+#second-part-main .container {
+  height: 100%;
+}
+#second-part-main .container .col {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+#second-part-main .container .col-img {
+  width: 45px;
+}
+#second-part-main .container .col-text {
+  padding: 0 10px;
+  font-size: 14px;
+  color: white;
 }
