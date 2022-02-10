@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// HOMEPAGE
 Route::get('/', function () {
 
     $comics_array = config('comics');
@@ -23,4 +23,10 @@ Route::get('/', function () {
         'second_main_array' => $second_main_array
     ];
     return view('homepage', $data);
+});
+
+// DETAILS
+Route::get('/details', function () {
+
+    return view('details');
 });

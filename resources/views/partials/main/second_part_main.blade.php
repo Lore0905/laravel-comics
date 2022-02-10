@@ -5,7 +5,7 @@
             <!-- col -->
             <div class="col">
                 <div class="col-img">
-                    <img src="{{ asset('/images/{{$item['img']}}') }} " alt="{{$item['img']}}">
+                    <img src="{{ asset('/images/'.$item['img']) }} " alt="{{$item['img']}}">
                 </div>
                 <div class="col-text">
                     {{ $item['text'] }}
