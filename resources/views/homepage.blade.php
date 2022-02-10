@@ -5,6 +5,11 @@
 @endsection
 
 @section('main_content')
+
+    {{-- jumbotron  --}}
+    @include('partials.main.jumbotron')
+
+    {{-- comics --}}
     <section class="wrap-serie">
 
         <!-- text -->
@@ -26,4 +31,8 @@
         </div>
             
     </section>
+
+    {{-- second part main --}}
+    @include('partials.main.second_part_main')
+
 @endsection
