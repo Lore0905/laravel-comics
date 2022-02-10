@@ -6,8 +6,7 @@
             {{-- col --}}
             <div class="col col-dx">
                 {{-- title --}}
-                <h2>$comics['title']</h2>
-    
+                <h2>{{$comics_array['title']}}</h2>
                 {{-- price --}}
                 <div class="wrapping-i-col price-section">
 
@@ -16,17 +15,17 @@
 
                         {{-- price --}}
                         <div>
-                            <span>
+                            <span class="green-light-green">
                                 U.S. Price: 
                             </span>
                             <span>
-                                $19.99
+                                {{$comics_array['price']}}
                             </span>
                         </div>
 
                         {{-- available --}}
                         <div id="status">
-                            <span>
+                            <span class="green-light-green">
                                 AVAILABLE
                             </span>
                         </div>
@@ -46,15 +45,18 @@
 
                 {{-- paragraph --}}
 
-                <div>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nemo rem accusantium sapiente, aut vitae aliquid, est doloribus deleniti atque ad maxime hic enim necessitatibus quibusdam corrupti delectus. Tenetur, dolore.
+                <div class="description">
+                    <p>{{$comics_array['description']}}</p>
                 </div>
 
             </div>
             
             {{-- col --}}
             <div class="col col-sx">
-                <h2>col</h2>
+                <h5>ADVERTISEMENT</h5>
+                <div>
+                    <img src="{{asset('images/adv.jpg')}}" alt="">
+                </div>
             </div>
 
         </div>

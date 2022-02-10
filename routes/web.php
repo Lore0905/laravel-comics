@@ -39,7 +39,7 @@ Route::get('/details/{id}', function ($id) {
     }
 
     $data = [
-        'comics_array' => $comics_array
+        'comics_array' => $comics_click
     ];
 
     return view('details', $data);

@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+.green-light-green {
+  color: #99ea85;
+}
+
 .f-header {
   background-color: #3382f9;
   color: white;
@@ -169,20 +173,27 @@ a {
   width: 100%;
 }
 #details-comic .wrapping-col .col-dx {
-  width: 75%;
+  width: 70%;
+  padding-right: 30px;
 }
 #details-comic .wrapping-col .col-dx .wrapping-i-col {
   display: flex;
   width: 100%;
+  margin: 20px 0px;
+  color: white;
 }
 #details-comic .wrapping-col .col-dx .wrapping-i-col .col-i-dx {
   width: 75%;
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 #details-comic .wrapping-col .col-dx .wrapping-i-col .col-i-sx {
   width: 25%;
   text-align: center;
+  border-left: 1px solid black;
+  height: 100%;
+  padding: 15px;
 }
 #details-comic .wrapping-col .col-dx .wrapping-i-col .col-i-sx select {
   background-color: #55ba58;
@@ -192,10 +203,19 @@ a {
 #details-comic .wrapping-col .col-dx .price-section {
   background-color: #55ba58;
 }
+#details-comic .wrapping-col .col-dx .description {
+  line-height: 30px;
+}
 #details-comic .wrapping-col .col-sx {
-  width: 25%;
+  width: 30%;
+  display: block;
+  text-align: right;
+}
+#details-comic .wrapping-col .col-sx h5 {
+  font-size: 20px;
+  padding: 20px;
+  color: grey;
 }
 #details-comic .wrapping-col .col {
-  border: 1px solid black;
   height: 100%;
 }

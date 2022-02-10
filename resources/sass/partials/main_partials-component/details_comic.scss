@@ -7,21 +7,28 @@
             width: 100%;
             
             .col-dx{
-                width: 75%;
+                width: 70%;
+                padding-right: 30px;
         
                 .wrapping-i-col{
                     display: flex;
                     width: 100%;
-        
+                    margin: 20px 0px;
+                    color: white;
+                    
                     .col-i-dx{
                         width: 75%;
                         display: flex;
                         justify-content: space-between;
+                        padding: 15px;
                     }
         
                     .col-i-sx{
                         width: 25%;
                         text-align: center;
+                        border-left: 1px solid black;
+                        height: 100%;
+                        padding: 15px;
 
                         select{
                             background-color: #55ba58;
@@ -33,17 +40,25 @@
                 .price-section{
                     background-color: #55ba58;
                 }
-        
-                
+                .description{
+                    line-height: 30px;
+                }
             }
         
             .col-sx{
-                width: 25%;
+                width: 30%;
+                display: block;
+                text-align: right;
+
+                h5{
+                    font-size: 20px;
+                    padding: 20px;
+                    color: grey;
+                }
             }
         
             // generic col
             .col{
-                border: 1px solid black;
                 height: 100%;
             }
         }
