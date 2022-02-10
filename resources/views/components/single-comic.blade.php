@@ -1,17 +1,19 @@
 
-<!-- single serie -->
-<div class="single-serie">
 
-    @foreach ($comics_list as $single_comic)
+@foreach ($comics_array as $single_comic)
+
+    <!-- single serie -->
+    <div class="single-serie">
         <!-- img-->
         <div class="img-serie">
             <img src="{{ $single_comic['thumb'] }}" alt="">
         </div>
 
         <!-- title  -->
-        <h4>titolo</h4>
+        <h4>{{ $single_comic['title'] }}</h4>
 
-    @endforeach
+    </div>
+
+@endforeach
 
 
-</div>

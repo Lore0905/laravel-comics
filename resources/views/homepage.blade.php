@@ -15,12 +15,10 @@
         <div class="container">
             
             @include('components.single-comic', [
-                'comics_list' => $comics_array
+                'comics_array' => $comics_array
             ])
 
-
         </div>
-        
         
         <!-- button -->
         <div class="button-more">
