@@ -8,8 +8,10 @@
 
     {{-- jumbotron  --}}
     @include('partials.main.jumbotron')
-    {{-- blue bar --}}
-    @include('partials.main.blu_bar')
+    {{-- card --}}
+    @include('partials.main.card-comic', [
+        'comics_array' => $comics_array
+    ]))
     {{-- details comic --}}
     @include('partials.main.details_comic', [
         'comics_array' => $comics_array

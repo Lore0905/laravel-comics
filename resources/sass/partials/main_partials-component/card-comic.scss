@@ -1,0 +1,19 @@
+.blue-bar{
+    height: 8vh;
+    width: 100%;
+    background-color: $brand_primary_color;
+    position: relative;
+
+    .card{
+        width: 200px;
+        height: 300px;
+        position: absolute;
+        bottom: 21px;
+        border: 2px solid white;
+
+        img{
+            overflow: hidden;
+            width: 100%;
+        }
+    }
+}
