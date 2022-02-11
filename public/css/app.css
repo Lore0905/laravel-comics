@@ -116,23 +116,28 @@ a {
      object-position: top;
 }
 
-.single-serie {
+.link-serie {
+  min-width: 80px;
   width: calc(16.6666666667% - 10px);
+  max-width: 200px;
+  color: inherit;
+}
+.link-serie .single-serie {
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 5px;
-  overflow: hidden;
 }
-.single-serie .img-serie {
+.link-serie .single-serie .img-serie {
   width: 170px;
   height: 170px;
   overflow: hidden;
   padding-bottom: 20px 0px;
 }
-.single-serie .img-serie img {
+.link-serie .single-serie .img-serie img {
   display: block;
 }
-.single-serie h4 {
+.link-serie .single-serie h4 {
   padding: 20px 0;
   text-transform: uppercase;
 }
