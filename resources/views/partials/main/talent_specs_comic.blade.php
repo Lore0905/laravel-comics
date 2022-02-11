@@ -14,7 +14,7 @@
                     <div>
                         <ul class="list">
                             @foreach ($comics_array['artists'] as $artist) 
-                                <li>{{$artist}} ,</li>
+                                <li>{{$artist}} {{!$loop->last ? ',' : ''}}</li>
                             @endforeach
                         </ul>
                     </div>
@@ -28,7 +28,9 @@
                     <div>
                         <ul class="list">
                             @foreach ($comics_array['writers'] as $writers) 
-                                <li>{{$writers}} ,</li>
+                                <li>
+                                    {{$writers}} {{!$loop->last ? ',' : ''}}
+                                </li>
                             @endforeach
                         </ul>
                     </div>

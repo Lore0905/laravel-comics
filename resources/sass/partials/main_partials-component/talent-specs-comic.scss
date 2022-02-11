@@ -33,6 +33,9 @@
                     display: flex;
                     color: $brand_primary_color;
 
+                    a{
+                        flex-shrink: 1;
+                    }
                     li{
                         font-size: 10px;
                     }
