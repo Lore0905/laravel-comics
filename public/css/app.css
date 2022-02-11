@@ -264,3 +264,6 @@ a {
   display: flex;
   color: #3382f9;
 }
+.section-talent-specs .wrapping-talent-specs .col .section-talent .list li, .section-talent-specs .wrapping-talent-specs .col .section-specs .list li {
+  font-size: 10px;
+}

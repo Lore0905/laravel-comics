@@ -32,6 +32,10 @@
                 .list{
                     display: flex;
                     color: $brand_primary_color;
+
+                    li{
+                        font-size: 10px;
+                    }
                 }
             }
         }

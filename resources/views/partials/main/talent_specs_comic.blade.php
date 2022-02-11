@@ -13,8 +13,9 @@
                     {{-- articst --}}
                     <div>
                         <ul class="list">
-                            <li>test</li>
-                            <li>test</li>
+                            @foreach ($comics_array['artists'] as $artist) 
+                                <li>{{$artist}} ,</li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
@@ -26,8 +27,9 @@
                     {{-- articst --}}
                     <div>
                         <ul class="list">
-                            <li>test</li>
-                            <li>test</li>
+                            @foreach ($comics_array['writers'] as $writers) 
+                                <li>{{$writers}} ,</li>
+                            @endforeach
                         </ul>
                     </div>
                 </div>
@@ -44,7 +46,7 @@
 
                     {{-- value --}}
                     <div>
-                        action
+                        {{ $comics_array['series'] }}
                     </div>
                 </div>
 
@@ -54,7 +56,7 @@
 
                     {{-- value --}}
                     <div>
-                        action
+                        {{ $comics_array['price'] }}
                     </div>
                 </div>
 
@@ -64,7 +66,7 @@
 
                     {{-- value --}}
                     <div>
-                        action
+                        {{ $comics_array['sale_date'] }}
                     </div>
                 </div>
 
