@@ -1,0 +1,39 @@
+.section-talent-specs{
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 50px 0 150px 0;
+
+    .wrapping-talent-specs{
+        display: flex;
+        width: 100%;
+
+        .col{
+            width: 50%;
+            height: 100%;
+            padding: 0px 25px;
+
+            h4{
+                color: #124670;
+                font-size: 20px;
+                padding: 10px 0;
+            }
+            
+
+            .section-talent, .section-specs{
+                display: flex;
+                border-top: 1px solid #e9e9e9;
+                border-bottom: 1px solid #e9e9e9;
+                padding: 20px 10px;
+                
+                h5{
+                    flex-grow: 1;
+                }
+                
+                .list{
+                    display: flex;
+                    color: $brand_primary_color;
+                }
+            }
+        }
+    }
+}

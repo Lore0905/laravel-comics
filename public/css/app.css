@@ -231,3 +231,36 @@ a {
   overflow: hidden;
   width: 100%;
 }
+
+.section-talent-specs {
+  width: 100%;
+  background-color: #f6f6f6;
+  padding: 50px 0 150px 0;
+}
+.section-talent-specs .wrapping-talent-specs {
+  display: flex;
+  width: 100%;
+}
+.section-talent-specs .wrapping-talent-specs .col {
+  width: 50%;
+  height: 100%;
+  padding: 0px 25px;
+}
+.section-talent-specs .wrapping-talent-specs .col h4 {
+  color: #124670;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.section-talent-specs .wrapping-talent-specs .col .section-talent, .section-talent-specs .wrapping-talent-specs .col .section-specs {
+  display: flex;
+  border-top: 1px solid #e9e9e9;
+  border-bottom: 1px solid #e9e9e9;
+  padding: 20px 10px;
+}
+.section-talent-specs .wrapping-talent-specs .col .section-talent h5, .section-talent-specs .wrapping-talent-specs .col .section-specs h5 {
+  flex-grow: 1;
+}
+.section-talent-specs .wrapping-talent-specs .col .section-talent .list, .section-talent-specs .wrapping-talent-specs .col .section-specs .list {
+  display: flex;
+  color: #3382f9;
+}

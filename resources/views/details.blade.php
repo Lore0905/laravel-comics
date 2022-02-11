@@ -16,6 +16,10 @@
     @include('partials.main.details_comic', [
         'comics_array' => $comics_array
     ])
+    {{-- talent and specs --}}
+    @include('partials.main.talent_specs_comic', [
+        'comics_array' => $comics_array
+    ])
 
     
 
