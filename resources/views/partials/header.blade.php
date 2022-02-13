@@ -31,7 +31,7 @@
                     <a href="#" class="{{ Request::route()->getName() === 'details' ? 'active' : '' }}" >CHARACTERS</a>
                 </li>
                 <li >
-                    <a href="/" class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}">COMICS</a>
+                    <a href="{{ route('homepage') }}" class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}">COMICS</a>
                 </li>
                 <li >
                     <a href="#">MOVIES</a>
