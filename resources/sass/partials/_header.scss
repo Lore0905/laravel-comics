@@ -52,11 +52,13 @@
                 display: block;
                 line-height: 95px;
                 color: $brand_secondary_color;
+
+                &.active{
+                    color: $brand_primary_color;
+                    border-bottom: 5px solid $brand_primary_color;
+                }
             }
-            a:hover{
-                color: $brand_primary_color;
-                border-bottom: 5px solid $brand_primary_color;
-            }
+            
         }
     }    
 }       

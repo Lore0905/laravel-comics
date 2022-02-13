@@ -28,10 +28,10 @@
 
             <ul>
                 <li >
-                    <a href="#">CHARACTERS</a>
+                    <a href="#" class="{{ Request::route()->getName() === 'details' ? 'active' : '' }}" >CHARACTERS</a>
                 </li>
                 <li >
-                    <a href="#">COMICS</a>
+                    <a href="/" class="{{ Request::route()->getName() === 'homepage' ? 'active' : '' }}">COMICS</a>
                 </li>
                 <li >
                     <a href="#">MOVIES</a>
