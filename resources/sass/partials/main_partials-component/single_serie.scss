@@ -1,14 +1,14 @@
 .link-serie{
-    min-width: 80px;
+    min-width: 180px;
     width: calc((100% / 6) - 10px);
-    max-width: 200px;
     color: inherit;
     
     .single-serie{
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding: 5px;
+        margin: 5px;
+
         .img-serie{
             width: 170px;
             height: 170px;
@@ -20,6 +20,7 @@
             }
         }
         h4{
+            max-width: 170px;
             padding: 20px 0;
             text-transform: uppercase;
         }

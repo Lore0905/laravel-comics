@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+body {
+  min-width: 1300px;
+}
+
 img {
   max-width: 100%;
 }
@@ -117,16 +121,15 @@ a {
 }
 
 .link-serie {
-  min-width: 80px;
+  min-width: 180px;
   width: calc(16.6666666667% - 10px);
-  max-width: 200px;
   color: inherit;
 }
 .link-serie .single-serie {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  margin: 5px;
 }
 .link-serie .single-serie .img-serie {
   width: 170px;
@@ -138,6 +141,7 @@ a {
   display: block;
 }
 .link-serie .single-serie h4 {
+  max-width: 170px;
   padding: 20px 0;
   text-transform: uppercase;
 }

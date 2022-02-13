@@ -7,7 +7,7 @@
         <div class="single-serie">
             <!-- img-->
             <div class="img-serie">
-                <img src="{{ $single_comic['thumb'] }}" alt="">
+                <img src="{{ $single_comic['thumb'] }}" alt="{{ $single_comic['title'] }}">
             </div>
 
             <!-- title  -->
